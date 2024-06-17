@@ -10,10 +10,10 @@ import { Button } from '@/components/ui/button';
 
 export function Pricing() {
 	return (
-		<section className='flex w-full flex-col  gap-12 items-center'>
-			<h2 id={Ids.Pricing} className='text-3xl font-bold self-start'>
-				Pricing
-			</h2>
+		<section
+			id={Ids.Pricing}
+			className='flex w-full flex-col  gap-12 items-center'>
+			<h2 className='text-3xl font-bold self-start'>Pricing</h2>
 			<div className='self-start'>
 				<p className='text-3xl font-medium mb-3'>
 					One Price for Everything

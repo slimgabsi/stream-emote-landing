@@ -15,10 +15,10 @@ import { Button } from '@/components/ui/button';
 
 export function Features() {
 	return (
-		<section className='flex w-full flex-col  gap-12 items-center'>
-			<h2 id={Ids.Features} className='text-3xl font-bold self-start'>
-				Features
-			</h2>
+		<section
+			id={Ids.Features}
+			className='flex w-full flex-col  gap-12 items-center'>
+			<h2 className='text-3xl font-bold self-start'>Features</h2>
 			<p className='text-3xl font-medium self-start'>
 				Track Your Vital Signs: Monitor breath rate, heart rate, and
 				stress <br />

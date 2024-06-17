@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { ReactNode } from 'react';
 import { Exo_2 } from 'next/font/google';
 import './globals.css';
+import { Header } from '@/app/components/Header';
 
 const exo2 = Exo_2({ subsets: ['latin'] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={exo2.className}>{children}</body>
+			<body className={exo2.className}>
+				<Header />
+				{children}
+			</body>
 		</html>
 	);
 }

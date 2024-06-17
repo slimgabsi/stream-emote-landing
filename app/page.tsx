@@ -1,9 +1,17 @@
-import Image from 'next/image';
+import { Hero } from '@/app/components/Hero';
+import { Showcase } from '@/app/components/Showcase';
+import { Contact } from '@/app/components/Contact';
+import { Features } from '@/app/components/Features';
+import { Pricing } from '@/app/components/Pricing';
 
 export default function Home() {
 	return (
-		<main className='flex min-h-screen flex-col items-center justify-between p-24 bg-background'>
-			<h2>Steam Emote</h2>
+		<main className='flex flex-col items-center gap-12 my-16 mx-20'>
+			<Hero />
+			<Showcase />
+			<Contact />
+			<Features />
+			<Pricing />
 		</main>
 	);
 }

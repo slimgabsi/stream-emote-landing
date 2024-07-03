@@ -12,8 +12,8 @@ export function Pricing() {
 	return (
 		<section
 			id={Ids.Pricing}
-			className='flex w-full flex-col  gap-12 items-center'>
-			<h2 className='text-3xl font-bold self-start'>Pricing</h2>
+			className='px-20 flex w-full flex-col  gap-12 items-center'>
+			<h2 className=' text-3xl font-bold self-start'>Pricing</h2>
 			<div className='self-start'>
 				<p className='text-3xl font-medium mb-3'>
 					One Price for Everything

@@ -38,7 +38,9 @@ export function Pricing() {
 					<CardFooter>
 						<div className='flex-col w-full gap-4'>
 							<p>20$</p>
-							<Button className='w-full'>Learn More</Button>
+							<Button variant='secondary' className='w-full'>
+								Get Started
+							</Button>
 						</div>
 					</CardFooter>
 				</Card>
@@ -56,7 +58,7 @@ export function Pricing() {
 						<div className='flex-col w-full gap-4'>
 							<p>Free</p>
 							<Button className='w-full' variant='outline'>
-								Learn More
+								Get Started
 							</Button>
 						</div>
 					</CardFooter>

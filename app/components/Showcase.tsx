@@ -12,8 +12,8 @@ export function Showcase() {
 				for real-time health insights. Stay informed and healthy
 				anywhere, anytime.
 			</p>
-			<Button>WATCH DEMO</Button>
-			<Button>DOWNLOADS</Button>
+			<Button variant='outline'>WATCH DEMO</Button>
+			<Button variant='secondary'>DOWNLOADS</Button>
 		</section>
 	);
 }

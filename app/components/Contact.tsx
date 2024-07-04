@@ -13,7 +13,7 @@ export function Contact() {
 
 			<div className='flex w-full max-w-sm items-center space-x-2 font-medium'>
 				<Input type='email' placeholder='Email' />
-				<Button type='submit'>
+				<Button variant='secondary' type='submit'>
 					Send
 					<Image src={arrow} alt='arrow' className='ml-2' />
 				</Button>
